@@ -1,5 +1,3 @@
 #!/usr/bin/env bash
-# Display listening sockets with their PID and program name.
-
-sudo netstat -lntup
-sudo netstat -lxup
+# Displays listening ports with the PID and program name
+netstat -lp
